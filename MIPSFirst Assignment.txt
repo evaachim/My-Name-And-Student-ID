@@ -1,0 +1,8 @@
+.data                 
+.text  
+main:            
+li $v0, 11            #system call to print char
+
+li $a0, 65            #gets 'A'
+
+syscall               #calling system to perform operation

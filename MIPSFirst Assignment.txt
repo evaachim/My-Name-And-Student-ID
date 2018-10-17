@@ -6,3 +6,11 @@ li $v0, 11            #system call to print char
 li $a0, 'A'           #gets 'A'
 
 syscall               #calling system to perform operation
+
+addi $a0, $a0, 34     #calculates the value of 'c'
+
+syscall
+ 
+li $v0, 10             #end of program
+
+syscall

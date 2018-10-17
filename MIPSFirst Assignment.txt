@@ -29,4 +29,12 @@ syscall
 
 li $v0, 10
 
-syscall      
+syscall  
+
+addi $a0, $a0, 4       #calculates 'm'
+
+syscall        
+
+li $v0, 10            
+
+syscall    

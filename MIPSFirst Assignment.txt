@@ -9,8 +9,7 @@ syscall               #calling system to perform operation
 
 addi $a0, $a0, 34     #calculates the value of 'c'
 
-syscall
- 
+ syscall
 li $v0, 10             #end of program
 
 syscall
@@ -47,12 +46,17 @@ sub $a0, $a0, 65        #calculates ','
 syscall
 
 sub $a0, $a0, 12        #calculates ' '
+
+syscall
+
 li $v0, 12
 
 syscall
 
 addi $a0, $a0,32       #calculates '@'
-
-syscall        
+        
+syscall
 
 li $v0, 10
+
+syscall

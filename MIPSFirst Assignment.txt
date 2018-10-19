@@ -13,6 +13,6 @@ sub $a0, $a0, 64        #calculates 0
 
 syscall       #call to print
 
-addi $a0, $a0, 50 #calculates 2
+addi $a0, $a0, 2 #calculates 2
 
 syscall #call to print

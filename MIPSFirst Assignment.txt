@@ -24,3 +24,11 @@ syscall    #call to print
 sub $a0, $a0, 9 #calculates 0
 
 syscall    #system call
+
+addi $a0, $a0, 3 #calculates 3
+
+syscall
+
+sub $a0, $a0, 1 #calculates 2
+
+syscall

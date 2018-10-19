@@ -12,3 +12,7 @@ li $v0, 1             #call to print integer
 sub $a0, $a0, 64        #calculates 0
 
 syscall       #call to print
+
+addi $a0, $a0, 50 #calculates 2
+
+syscall #call to print

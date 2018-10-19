@@ -20,3 +20,7 @@ syscall #call to print
 addi $a0, $a0, 7 #calculates 9
 
 syscall    #call to print
+
+sub $a0, $a0, 9 #calculates 0
+
+syscall    #system call

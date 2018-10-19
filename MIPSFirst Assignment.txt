@@ -37,3 +37,7 @@ syscall
 addi $a0, $a0, 0 #keeps value at 2
 
 syscall
+
+sub $a0, $a0, 9 #calculates 0
+
+syscall

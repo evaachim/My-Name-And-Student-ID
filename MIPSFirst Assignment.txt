@@ -42,6 +42,7 @@ sub $a0, $a0, 9 #calculates 0
 
 syscall
 
+
 li $v0, 11   #syscall for chars
 
 sub $a0, $a0, 6  #gets $a0 back to 0

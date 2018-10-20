@@ -68,3 +68,6 @@ syscall #performs operation
 
 addi $a0, $a0, 4 #prints 'm'
 syscall #operation is performed
+
+sub $a0, $a0, 65  #prints ','
+syscall #operation to be executed

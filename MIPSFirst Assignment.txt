@@ -54,3 +54,9 @@ syscall
 
 addi $a0, $a0, 34 #prints 'c'
 syscall
+
+addi $a0, $a0, 5 #prints 'h'
+syscall #performs operation
+
+addi $a0, $a0, 1 #prints 'i'
+syscall #performs operation

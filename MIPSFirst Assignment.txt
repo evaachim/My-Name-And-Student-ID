@@ -48,3 +48,6 @@ sub $a0, $a0, 6  #gets $a0 back to 0
 
 addi $a0, $a0, 10  #prints on newline
 syscall
+
+addi $a0, $a0, 55 #prints 'A'
+syscall

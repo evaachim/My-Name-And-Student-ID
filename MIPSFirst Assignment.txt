@@ -78,3 +78,9 @@ syscall #operation call
 addi $a0, $a0, 37 #'E'
 syscall
 
+
+addi $a0, $a0, 49 #'v'
+syscall #system call to execute instruction
+
+sub $a0, $a0, 21 #gets back to 'a', the ASCII value 65
+syscall #system call to execute instruction

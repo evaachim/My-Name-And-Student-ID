@@ -84,3 +84,7 @@ syscall #system call to execute instruction
 
 sub $a0, $a0, 21 #gets back to 'a', the ASCII value 65
 syscall #system call to execute instruction
+
+
+li $v0, 10             #end of program
+syscall  

@@ -71,3 +71,10 @@ syscall #operation is performed
 
 sub $a0, $a0, 65  #prints ','
 syscall #operation to be executed
+
+sub $a0, $a0, 12 #prints space
+syscall #operation call
+
+addi $a0, $a0, 37 #'E'
+syscall
+
